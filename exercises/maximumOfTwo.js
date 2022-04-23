@@ -6,16 +6,18 @@ function max(x, y) {
     } else {
         return y
     }
-
-}
-let a = max(30, 40)
-console.log(a)
-
-
-
-
-function helloWorld(x) {
-    console.log('hello world', x);
 }
 
-helloWorld(30)
+// let a = max(30, 40)
+console.log(max(30, 40))
+
+function max(x, y) {
+    return x > y ? x : y
+}
+
+
+// function helloWorld(x) {
+//     console.log('hello world', x);
+// }
+
+// helloWorld(30)
